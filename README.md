@@ -56,10 +56,10 @@ on the following page, but skip step 2 as it will be installed already and using
 things: 
 https://developers.google.com/drive/api/v3/quickstart/python.
 
-5. You can now open the scripts in eg. spyder, and check out especially main_run.py and global_settings.py. You need to
+5. You can now open the scripts in eg. spyder, by starting spyder from the anaconda prompt, and check out especially 'marker_cropgroup.py' and 'global_settings.py'. You need to
 update those to match your environment, eg. set the paths as you want them,...
 
-6. Now run `main_run.py` to start a crop classification...
+6. Now run `marker_cropgroup.py` to start a crop classification...
 
 ## Sample data
 
