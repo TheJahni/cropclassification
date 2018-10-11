@@ -33,19 +33,23 @@ You can install this from https://conda.io/docs/user-guide/install/index.html
 	  ```
       conda install geopandas
 	  ```
-      3. I use spyder to edit my scripts. Recently after I installed geopandas, Spyder from the root environment doesn't work anymore and I need to install it here as well. If you use another editor, you can use that of course.
-      ```
-	  conda install spyder
-	  ```
-      4. Install the python earth engine API
+
+      3. Install the python earth engine API
       ```
 	  conda install -c conda-forge earthengine-api
 	  ```
-      5. Install scikit-learn
+      4. Install scikit-learn
       ```
 	  conda install scikit-learn
 	  ```
-
+      5. Install google-api-python-client
+      ```
+	  conda install -c conda-forge google-api-python-client
+	  ```
+      6. I use spyder to edit my scripts. Recently after I installed geopandas, Spyder from the root environment doesn't work anymore and I need to install it here as well. If you use another editor, you can use that of course.
+      ```
+	  conda install spyder
+	  ```
 4. When you want to download data from google earth engine, this data is placed on your google drive. For the scripts 
 to be able to download this data they scripts need (read-only) access to your google drive. Follow the steps explained 
 on the following page, but skip step 2 as it will be installed already and using pip and conda together can break some 
