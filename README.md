@@ -45,7 +45,10 @@ You can install this from https://conda.io/docs/user-guide/install/index.html
       ```
 	  conda install scikit-learn
 	  ```
-
+      6. Install Install googleapiclient.discovery
+      ```
+	  conda install -c conda-forge google-api-python-client
+	  ```
 4. When you want to download data from google earth engine, this data is placed on your google drive. For the scripts 
 to be able to download this data they scripts need (read-only) access to your google drive. Follow the steps explained 
 on the following page, but skip step 2 as it will be installed already and using pip and conda together can break some 
